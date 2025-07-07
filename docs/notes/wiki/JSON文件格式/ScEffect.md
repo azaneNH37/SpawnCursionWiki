@@ -108,7 +108,7 @@ permalink: /wiki/l32i8u3f/
   - player：该生物将选择玩家作为目标
 - rand_interval：一个整数，控制触发目标选择的间隔，大部分情况下保留默认值 10 即可
 - must_see：一个布尔值，控制是否可在未看见目标的情况下触发目标选择
-- must_reach：一个布尔值，控制是否可在无法到达目标的情况下触发目标选择
+- must_reach： 一个布尔值，控制是否可在无法到达目标的情况下触发目标选择
 
 ### 添加生物近战 AiGoal(Melee Attack)
 
