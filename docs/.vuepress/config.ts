@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/spawncursion/',
   lang: 'zh-CN',
   locales: {
     '/': {
@@ -31,7 +31,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: 'icon_site.png' }],
+    ['link', { rel: 'icon', type: 'image/png', href: '/icon_site.png' }],
   ],
 
   bundler: viteBundler(),

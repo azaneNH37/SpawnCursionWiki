@@ -6,14 +6,14 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: SpawnCursion
+      tagline: 生成式入侵
+      text: 自定义的新式刷怪笼？
       actions:
         - theme: brand
           text: Wiki
           link: /notes/wiki/SpawnCursion.md
         - theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/azaneNH37/SpawnCursion
 ---
