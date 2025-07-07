@@ -1,10 +1,10 @@
 name: deploy
 
 on:
-  # 每当 push 到 main 分支时触发部署
-  # Deployment is triggered whenever a push is made to the main branch.
+  # 每当 push 到 master 分支时触发部署
+  # Deployment is triggered whenever a push is made to the master branch.
   push:
-    branches: [main]
+    branches: [master]
   # 手动触发部署
   # Manually trigger deployment
   workflow_dispatch:
@@ -31,13 +31,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
 
-
-
       # 运行构建脚本
       # Run the build script
       - name: Build VuePress site
         run: npm run docs:build
-
 
       # 查看 workflow 的文档来获取更多信息
       # @see https://github.com/crazy-max/ghaction-github-pages
