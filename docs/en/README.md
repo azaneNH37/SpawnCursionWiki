@@ -2,21 +2,18 @@
 pageLayout: home
 externalLinkIcon: false
 config:
-  -
-    type: hero
+  - type: hero
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: A simple, feature-rich, document & blog
+      name: SpawnCursion
+      tagline: 生成式入侵
+      text: 自定义的新式刷怪笼？
       actions:
-        -
-          theme: brand
-          text: Blog
-          link: /en/blog/
-        -
-          theme: alt
+        - theme: brand
+          text: Wiki
+          link: /notes/wiki/SpawnCursion.md
+        - theme: alt
           text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          link: https://github.com/azaneNH37/SpawnCursion
 ---
