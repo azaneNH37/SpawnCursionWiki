@@ -1,9 +1,8 @@
 ---
 title: ScEffect
 createTime: 2025/07/07 17:43:56
-permalink: /wiki/l32i8u3f/
+permalink: /wiki/wovxwpae/
 ---
-
 #### Overall
 
 一般情况下，一个 ScEffect 的词条具有如下形式：

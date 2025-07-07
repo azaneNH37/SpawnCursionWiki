@@ -1,9 +1,8 @@
 ---
 title: SpawnCursion
 createTime: 2025/07/07 17:43:56
-permalink: /wiki/lw4760yz/
+permalink: /wiki/toeupf89/
 ---
-
 Minecraft 版本：1.20.1
 
 模组平台：Forge
