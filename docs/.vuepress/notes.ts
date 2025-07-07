@@ -23,16 +23,39 @@ import { defineNoteConfig, defineNotesConfig } from 'vuepress-theme-plume'
 
 /* =================== locale: zh-CN ======================= */
 
-const zhDemoNote = defineNoteConfig({
-  dir: 'demo',
+const zhWikiNote = defineNoteConfig({
+  dir: 'wiki',
   // `dir` 所指向的目录中的所有 markdown 文件，其 permalink 需要以 `link` 配置作为前缀
   // 如果 前缀不一致，则无法生成侧边栏。
   // 所以请确保  markdown 文件的 permalink 都以 `link` 开头
-  link: '/demo',
+  link: '/wiki',
   // 手动配置侧边栏结构
-  sidebar: ['', 'foo', 'bar'],
+  //sidebar: ['', 'foo', 'bar'],
   // 根据文件结构自动生成侧边栏
-  // sidebar: 'auto',
+  sidebar: [
+    {
+      text: '简介',
+      collapsed: false,
+      icon: 'mdi:book',
+      items: [
+        'SpawnCursion',
+        '模组功能',
+        '模组功能性方块'
+      ]
+    },
+    {
+      text: 'JSON文件格式',
+      collapsed: false,
+      icon: 'mdi:code-json',
+      prefix: 'JSON文件格式',
+      items: [
+        '数据包概览',
+        '模组数据包文件概览',
+        '刷怪笼文件',
+        'ScEffect'
+      ],
+    }
+  ]
 })
 
 /**
@@ -43,7 +66,7 @@ const zhDemoNote = defineNoteConfig({
 export const zhNotes = defineNotesConfig({
   dir: 'notes',
   link: '/',
-  notes: [zhDemoNote],
+  notes: [zhWikiNote],
 })
 
 /* =================== locale: en-US ======================= */
